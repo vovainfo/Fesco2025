@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63bd61f3-8f19-4240-abed-abdf99ded339">
+  <producedTypes>
+    <objectType typeId="d5a0d228-d72a-4a63-9b13-b7b40d4837ba" valueTypeId="507acecf-7be6-479f-9103-47ee05c04c8a"/>
+    <refType typeId="28964501-d4f6-422a-9eac-b13168c8679b" valueTypeId="fc3402b7-fc39-4425-962f-30b8b3b2500a"/>
+    <selectionType typeId="b1bcd621-981e-45d4-9a64-1b5c8f57e9e1" valueTypeId="8306d47d-b920-4ff3-943b-16125faf3122"/>
+    <listType typeId="3b6810dd-caad-450e-be4d-b5e6d3d0a6da" valueTypeId="b6f9abcf-54dc-4995-8ea0-bcb4a7b2e14e"/>
+    <managerType typeId="b4b0e431-b157-4ea9-9da3-7e157b238b54" valueTypeId="8a50bcca-1ff7-4d00-91f0-f0c66cfb7f83"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="077d0df6-886c-4166-9b32-df4532df12ce">
+    <name>КредитныйЛимитПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредитный лимит (период)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1dbd90a-1c1b-4e7d-8875-3787823cbb2e">
+    <name>КредитныйЛимитСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредитный лимит (сумма)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

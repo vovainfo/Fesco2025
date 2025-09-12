@@ -39,4 +39,10 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <accumulationRegisters>AccumulationRegister.Остатки</accumulationRegisters>
 </mdclass:Configuration>
