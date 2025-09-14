@@ -39,10 +39,18 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <filterCriteria>FilterCriterion.ПриходДенегПоКонтрагенту</filterCriteria>
+  <filterCriteria>FilterCriterion.РасходныеНакладныеПоКонтрагенту</filterCriteria>
+  <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.ПриходДенег</documents>
   <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <reports>Report.ВзаиморасчетыСПокупателем</reports>
+  <reports>Report.ОстаткиНаСкладах</reports>
   <accumulationRegisters>AccumulationRegister.Остатки</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РасчетыСКлиентами</accumulationRegisters>
 </mdclass:Configuration>

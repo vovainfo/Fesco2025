@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fd77b52-e3b4-4ea4-a48d-ddbaeb71f254">
+  <producedTypes>
+    <listType typeId="cca39598-27cf-491d-abdf-fe2b5a9469ee" valueTypeId="2b90a708-2b1c-4644-9318-a5d0d7ff5ef1"/>
+    <managerType typeId="8e61b299-8bfd-4f9f-83bb-019e2c1c0fbb" valueTypeId="7252f608-4318-47de-9036-35ec524c2134"/>
+  </producedTypes>
+  <name>РасходныеНакладныеПоКонтрагенту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расходные накладные</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.РасходнаяНакладная.Attribute.Контрагент</content>
+</mdclass:FilterCriterion>
